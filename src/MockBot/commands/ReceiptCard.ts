@@ -42,7 +42,7 @@ const processor = async (context: TurnContext, args: string) => {
                   quantity: 368,
                   image: {
                     alt: 'Traffic manager',
-                    url: '${PUBLIC_URL}assets/traffic-manager.png'
+                    url: `${PUBLIC_URL}assets/traffic-manager.png`
                   }
                 },
                 {
@@ -51,7 +51,7 @@ const processor = async (context: TurnContext, args: string) => {
                   quantity: 720,
                   image: {
                     alt: 'Cloud service',
-                    url: '${PUBLIC_URL}assets/cloud-service.png'
+                    url: `${PUBLIC_URL}assets/cloud-service.png`
                   }
                 }
               ],
